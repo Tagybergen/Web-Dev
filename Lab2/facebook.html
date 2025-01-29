@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .content {
+            display: flex;
+            max-width: 980px;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .text-section {
+            max-width: 400px;
+        }
+
+        .text-section h1 {
+            color: #1877f2;
+            font-size: 36px;
+            margin: 0 0 10px;
+        }
+
+        .text-section p {
+            font-size: 20px;
+            color: #606770;
+        }
+
+        .form-section {
+            width: 360px;
+            background: #fff;
+            padding: 50px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .form input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 10px;
+            border: 1px solid #dddfe2;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .form button {
+            width: 100%;
+            padding: 12px;
+            background-color: #1877f2;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .form button:hover {
+            background-color: #165dcb;
+        }
+
+        .form a {
+            display: block;
+            text-align: center;
+            margin: 10px 0;
+            color: #1877f2;
+            font-size: 14px;
+            text-decoration: none;
+        }
+
+        .form a:hover {
+            text-decoration: underline;
+        }
+
+        .create-account {
+            background-color: #42b72a;
+            margin-top: 10px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 12px;
+            color: #606770;
+        }
+
+        .footer a {
+            color: #606770;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="text-section">
+                <h1>facebook</h1>
+                <p>Facebook помогает вам всегда оставаться на связи и общаться со своими знакомыми.</p>
+            </div>
+            <div class="form-section">
+                <form class="form">
+                    <input type="text" placeholder="Электронный адрес или номер телефона" required>
+                    <input type="password" placeholder="Пароль" required>
+                    <button type="submit">Вход</button>
+                    <a href="#">Забыли пароль?</a>
+                    <button type="button" class="create-account">Создать аккаунт</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>
+            <a href="#">Регистрация</a> · <a href="#">Вход</a> · <a href="#">Messenger</a> · <a href="#">Facebook Lite</a>
+        </p>
+        <p>Facebook © 2025</p>
+    </div>
+</body>
+</html>
