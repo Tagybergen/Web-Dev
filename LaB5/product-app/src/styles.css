@@ -1,0 +1,54 @@
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.categories button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Контейнер для всех товаров (делаем горизонтальный ряд) */
+.product-list {
+    display: flex;
+    flex-wrap: wrap; /* Позволяет переносить товары на новую строку, если не хватает места */
+    justify-content: center; /* Выравниваем товары по центру */
+    gap: 20px; /* Добавляем расстояние между товарами */
+}
+
+/* Отдельный блок товара */
+.product-item {
+    display: flex;
+    flex-direction: column; /* Элементы внутри товара располагаем вертикально */
+    align-items: center; /* Центрируем содержимое */
+    width: 200px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Изображение */
+.product-image {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Кнопка Like */
+.like-button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.like-button:hover {
+    background-color: #0056b3;
+}
